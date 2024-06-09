@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+.App {
+  background-color: #00a0df;
+}
+
+.weather-card {
+    display:flex;
+    justify-content: space-between;
+}   
+
+.header{
+  font-family: Lexend;
+  margin: 20px;
+  font-size: 35px;
+  color: #b6b9bb;
+  font-weight: 600;
+  z-index: 1;
+  position: relative;
+}
+
+.main {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.weather-card-child{
+  font-family: Lexend !important;
+  margin-top: 10px;
+}
+
+.weather-card-container {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.weather-card {
+  position: relative;
+  z-index: 1;
+}
+
+.forecast-card{
+  border-top: 2px solid #ffc107 !important;
+}
+
+.icon-container{
+  position: relative;
+  right: -120px;
+}
+
+.temp-desc{
+  text-transform: capitalize;
+  font-family: Lexend;
+}
+
+.forecast-header{
+  font-family: Lexend !important;
+  font-size: 16px !important; 
+}
+
+.forecast-main-header{
+  font-family: Lexend;
+  margin: 20px;
+  font-size: 26px;
+  color: #2196f3;
+  font-weight: 600;
+  text-align: center;
+}
+
+.forecast-date{
+  font-family: Lexend !important;
+  font-size: 15px !important; 
+  margin-bottom: 20px;
+}
+
+.sky {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
